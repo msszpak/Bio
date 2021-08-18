@@ -1,0 +1,104 @@
+.navbar-brand {
+  font-size: 1.75em;
+}
+
+.text-white-50 {
+  color: #fff!important;
+}
+
+.p {
+  color: white;
+}
+
+caption {
+  caption-side: top;
+  text-align: right;
+}
+
+.inventory {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+  td, th{
+    font-size: 1.1em;
+    border: 1px solid #000000;
+    padding: 3px 7px 2px 7px; 
+  }
+  th {
+    text-transform: uppercase;
+    background: #90a7a2;
+    // background:  linear-gradient(to bottom, rgb(229, 76, 16,) rgb(173, 54, 8));
+    
+
+  }
+}
+
+.table-striped>tbody>tr:nth-chold(odd)>td {
+  background-color: rgba(229 ,76, 16, .1);
+}
+
+.table {
+  margin-bottom: 3em;
+}
+
+.fa-star {
+  color: #f60707;
+  font-size: 0.7em;
+  letter-spacing: 3px;
+}
+
+.bg-dark {
+  background-color: #2c3e50 !important ;
+}
+
+.bg-primary {
+  background-color: #90a7a2 !important ;
+}
+
+//Start of the index page *****
+
+
+.btn-primary {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+
+.about {
+  margin-bottom: 1em;
+}
+
+.clearfix {
+  margin-left: 1em;
+  margin-right:.5em;
+}
+
+.btn-primary {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(155, 154, 154, 0.5);
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+.subscribe {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2.subscribe {
+  border-bottom: 2px dotted rgba(75,74,74,0.5);
+  padding-bottom: 4px;
+  margin: 25px 0;
+}
+
+form.subscribe {
+  font-size: 1.2em;
+}
+
+form.subscribe {
+  flex: 1.2em;
+}

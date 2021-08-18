@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>07 - Checkbox Demo</title>
+
+    <style>
+        body {
+            font-family: arial;
+            font-size: 100%;
+            background-image: url(https://cdn1.vectorstock.com/i/1000x1000/91/00/background-with-dog-paw-print-and-bone-vector-2669100.jpg);
+            background-size: cover;
+        }
+        
+        #outer {
+            width: 960px;
+            margin: 50px auto;
+            padding: 10px;
+            border: 1px solid #a8a8a8;
+            box-shadow: 0px 0px 20px #a8a8a8;
+            background-color: aliceblue;
+        }
+        
+        h1,
+        h2 {
+            font-size: 1.5em;
+            color: navy;
+            text-align: center;
+        }
+        
+        .info {
+            text-align: left;
+        }
+        
+        div {
+            margin-bottom: 25px;
+        }
+        
+        input[type=submit],
+        input[type=reset] {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Humane Society</h1>
+        <h2>Survey</h2>
+    </header>
+
+
+    <section id="outer">
+        <h1 class="info">Please check the types of pets in your home</h1>
+
+        <form action="form_checkbox.php" method="post">
+
+            <div>
+                <input type="checkbox" name="pet[]" id="dog" value="dog">
+                <label for="dog">Dog</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="cat" value="cat">
+                <label for="cat">Cat</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="bird" value="bird">
+                <label for="bird">Bird</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="rabbit" value="rabbit">
+                <label for="rabbit">Rabbit</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="goat" value="goat">
+                <label for="goat">Goat</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="sheep" value="sheep">
+                <label for="sheep">Sheep</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="horse" value="horse">
+                <label for="horse">Horse</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="pet[]" id="pig" value="pig">
+                <label for="pig">Pig</label>
+            </div>
+
+            <input type="submit" value="Send Survey">
+
+            <input type="reset" value="Clear Form">
+
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
